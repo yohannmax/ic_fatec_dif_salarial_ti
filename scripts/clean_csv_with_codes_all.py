@@ -27,7 +27,7 @@ def clean_csv(csv_name):
 
     new_csv = "\n".join(file_list)
 
-    new_csv = re.sub(r'CBO 2002 Família', 'CBO_FAMIL', new_csv)
+    new_csv = re.sub(r'CBO 2002 Família', 'CBO', new_csv)
     new_csv = re.sub(r'620:Atividades dos serviços de tecnologia da informação',
                      r'620:M', new_csv, 1)
     new_csv = re.sub(r'620:Atividades dos serviços de tecnologia da informação',
@@ -41,3 +41,5 @@ def clean_csv(csv_name):
 
     with open("./data/cleaned/" + csv_name, "w") as w:
         w.write(new_csv)
+
+clean_csv("CNAE_CBO_SEXO_2019_freq.csv")

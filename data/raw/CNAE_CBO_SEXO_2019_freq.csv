@@ -1,0 +1,24 @@
+;CNAE 2.0 Grupo;Sexo Trabalhador
+CBO 2002 Família; 620:Atividades dos serviços de tecnologia da informação;620:Atividades dos serviços de tecnologia da informação;631:Tratamento de dados, hospedagem na internet e outras atividades relacionadas;631:Tratamento de dados, hospedagem na internet e outras atividades relacionadas
+;01:Masculino;02:Feminino;01:Masculino;02:Feminino
+1236:DIRETORES DE SERVICOS DE INFORMATICA;592;98;64;11
+1425:GERENTES DE TECNOLOGIA DA INFORMACAO;11.161;3.439;965;276
+2122:ENGENHEIROS EM COMPUTACAO;3.577;515;424;53
+2123:ESPECIALISTAS EM INFORMATICA;6.106;1.180;900;120
+2124:ANALISTAS DE SISTEMAS COMPUTACIONAIS;101.794;27.661;9.924;2.742
+3171:TECNICOS EM PROGRAMACAO;33.224;5.060;2.307;305
+3172:TECNICOS EM OPERACAO E MONITORACAO DE COMPUTADORES;18.735;6.044;3.263;1.088
+
+Seleções vigentes
+Variável;Critério;Valor
+Ano;igual a;2019
+Vínculo Ativo 31/12;igual a;Sim
+CNAE 2.0 Grupo;igual a;Atividades dos serviços de tecnologia da informação
+;;Tratamento de dados, hospedagem na internet e outras atividades relacionadas
+CBO 2002 Família;igual a;DIRETORES DE SERVICOS DE INFORMATICA
+;;GERENTES DE TECNOLOGIA DA INFORMACAO
+;;ENGENHEIROS EM COMPUTACAO
+;;ANALISTAS DE SISTEMAS COMPUTACIONAIS
+;;TECNICOS EM PROGRAMACAO
+;;TECNICOS EM OPERACAO E MONITORACAO DE COMPUTADORES
+;;ESPECIALISTAS EM INFORMATICA
