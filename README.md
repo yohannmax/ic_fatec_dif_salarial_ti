@@ -1,5 +1,4 @@
 # ic_fatec
-# ic_fatec
 
 Sobre os dados:
 
