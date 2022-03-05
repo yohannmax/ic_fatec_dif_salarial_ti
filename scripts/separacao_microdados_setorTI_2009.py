@@ -18,7 +18,7 @@ col_list = ['Bairros SP', 'Bairros Fortaleza', 'Bairros RJ', 'Causa Afastamento 
 for file in list_files:
     df = pd.read_csv(file, sep = ";", encoding = 'latin-1', dtype = object)
 
-    df.drop(col_list, inplace = True, axis = 1)
+    df.drop(col_list, inplace = True, axis = 1) 
     df = df[df["Vínculo Ativo 31/12"] == '1']
     df.drop("Vínculo Ativo 31/12", inplace = True, axis = 1)
     df = df[df["Vl Remun Dezembro Nom"] != '0000000000,00']
