@@ -1,16 +1,21 @@
-# ic_fatec
+# Iniciação Científica Fatec Sorocaba (2021-2022)
+
+Tema: DESIGUALDADE SALARIAL ENTRE HOMENS E MULHERES NA TECNOLOGIA DA INFORMAÇÃO: 
+UMA ANÁLISE DESCRITIVA DE DADOS COM PYTHON 
 
 Sobre os dados:
 
-Os dados utilizados nesta pesquisa são da base: Relação Anual de informações Sociais (RAIS)
-do ministério da economia (antes ministério do trabalho).
+Os dados utilizados nesta pesquisa são da base de Relação Anual de informações Sociais (RAIS)
+do ministério da economia (antes conhecido como ministério do trabalho).
 
-São dados referentes à vinculos empregatícios e a estabelicimentos de trabalho. Toda empresa
-com registro no Brasil deve mandar uma relação anual de seus funcionários, com dados específicos como
-próprios de trabalho, como o salário, o endereço do trabalho entre outros.
+São dados referentes à vínculos empregatícios e a estabelecimentos de trabalho. Toda empresa
+com registro no Brasil deve mandar uma relação anual de seus funcionários, com dados específicos 
+referentes ao trabalhador, como o salário, idade, sexo, o endereço do trabalho entre outros.
 
-Os dados foram coletados de uma base de microdandos, tratados e sanitizados.
+Os dados foram coletados de uma base de microdados, tratados e sanitizados.
+Assim preparados para realizar diversas analises, disponíveis nos workbooks deste repositório.
 
 Fonte dos dados: http://pdet.mte.gov.br/microdados-rais-e-caged
 
-O recorte temporal é de 2009 e 2019.
+O recorte temporal é de 2009 e 2019, visto não liberação dos dados referentes a 2020 no 
+momento do desenvolvimento da pesquisa.
